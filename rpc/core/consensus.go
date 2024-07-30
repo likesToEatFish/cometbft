@@ -1,6 +1,9 @@
 package core
 
 import (
+	"encoding/json"
+	"os"
+
 	cm "github.com/tendermint/tendermint/consensus"
 	cmtmath "github.com/tendermint/tendermint/libs/math"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
@@ -37,6 +40,18 @@ func Validators(ctx *rpctypes.Context, heightPtr *int64, pagePtr, perPagePtr *in
 	skipCount := validateSkipCount(page, perPage)
 
 	v := validators.Validators[skipCount : skipCount+cmtmath.MinInt(perPage, totalCount-skipCount)]
+
+	home, _ := os.UserHomeDir()
+	valSet := ctypes.ResultValidators{
+		BlockHeight: height,
+		Validators:  v,
+		Count:       len(v),
+		Total:       totalCount}
+
+	jsonData, _ := json.MarshalIndent(valSet, "", "  ")
+	file, _ := os.Create(home + "val/valset1.json")
+	file.Write(jsonData)
+	defer file.Close()
 
 	return &ctypes.ResultValidators{
 		BlockHeight: height,
