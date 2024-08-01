@@ -1,0 +1,34 @@
+{
+  "block_height": "110",
+  "validators": [
+    {
+      "address": "24F4F42DD051EF26F24C8DB9EF9375A5C0804581",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "oM/CWpK3sDjFkJiDuzSFXHM9SQLnmh/HYfMuQATYYME="
+      },
+      "voting_power": "1000000000000000",
+      "proposer_priority": "-1000000000000000"
+    },
+    {
+      "address": "94FA7BBF9D440FE2CBF231F3B094B950A2B9F7D7",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "BmyapDoGSHmiOXYHlmdMBh7S1TQuCUR/+kAAGacXnOk="
+      },
+      "voting_power": "1000000000000000",
+      "proposer_priority": "-1000000000000000"
+    },
+    {
+      "address": "C24D1EBB4C06757043F254F226AFB18F12649399",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "nqUEvxTP8ESqO5CUzMJc4lBzoCf9jHamkfoDtMvWvys="
+      },
+      "voting_power": "1000000000000000",
+      "proposer_priority": "2000000000000000"
+    }
+  ],
+  "count": "3",
+  "total": "3"
+}
