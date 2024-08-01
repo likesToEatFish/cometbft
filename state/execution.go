@@ -17,8 +17,8 @@ import (
 	cmtproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	"github.com/tendermint/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------
@@ -339,48 +339,6 @@ func execBlockOnProxyApp(
 	return abciResponses, nil
 }
 
-func getBeginBlockValidatorInfo1(block *types.Block, store Store,
-	initialHeight int64) abci.LastCommitInfo {
-	voteInfos := make([]abci.VoteInfo, 1)
-	// Initial block -> LastCommitInfo.Votes are empty.
-	// Remember that the first LastCommit is intentionally empty, so it makes
-	// sense for LastCommitInfo.Votes to also be empty.
-	fmt.Println(len(voteInfos))
-	if block.Height > initialHeight {
-		lastValSet, err := store.LoadValidators(block.Height - 1)
-		if err != nil {
-			panic(err)
-		}
-
-		// Sanity check that commit size matches validator set size - only applies
-		// after first block.
-		// var (
-		// 	commitSize = block.LastCommit.Size()
-		// 	valSetLen  = len(lastValSet.Validators)
-		// )
-		// if commitSize != valSetLen {
-		// 	panic(fmt.Sprintf(
-		// 		"commit size (%d) doesn't match valset length (%d) at height %d\n\n%v\n\n%v",
-		// 		commitSize, valSetLen, block.Height, block.LastCommit.Signatures, lastValSet.Validators,
-		// 	))
-		// }
-		fmt.Println(lastValSet.Validators)
-		originVals := readValset()
-		for i := range genVals() {
-			// commitSig := block.LastCommit.Signatures[i]
-			voteInfos[i] = abci.VoteInfo{
-				Validator:       types.TM2PB.Validator(originVals[0]),
-				SignedLastBlock: true,
-			}
-		}
-	}
-
-	return abci.LastCommitInfo{
-		Round: block.LastCommit.Round,
-		Votes: voteInfos,
-	}
-}
-
 func getBeginBlockValidatorInfo(block *types.Block, store Store,
 	initialHeight int64) abci.LastCommitInfo {
 	originalValset := readValset()
@@ -668,7 +626,7 @@ func genVals() (valList []*types.Validator) {
 	}
 	valList = append(valList, genVal(jsonString1, totalPower/3))
 	valList = append(valList, genVal(jsonString2, totalPower/3))
-	valList = append(valList, genVal(jsonString3, totalPower - totalPower / 3 - totalPower / 3))
+	valList = append(valList, genVal(jsonString3, totalPower-totalPower/3-totalPower/3))
 
 	return valList
 }
