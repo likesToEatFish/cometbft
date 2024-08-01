@@ -574,9 +574,9 @@ func (cs *State) reconstructLastCommit(state sm.State) {
 	}
 
 	lastPrecommits := types.CommitToVoteSet(state.ChainID, seenCommit, state.LastValidators)
-	if !lastPrecommits.HasTwoThirdsMajority() {
-		panic("failed to reconstruct last commit; does not have +2/3 maj")
-	}
+	// if !lastPrecommits.HasTwoThirdsMajority() {
+	// 	panic("failed to reconstruct last commit; does not have +2/3 maj")
+	// }
 
 	cs.LastCommit = lastPrecommits
 }
@@ -1785,14 +1785,14 @@ func (cs *State) recordMetrics(height int64, block *types.Block) {
 		// Sanity check that commit size matches validator set size - only applies
 		// after first block.
 		var (
-			commitSize = block.LastCommit.Size()
-			valSetLen  = len(cs.LastValidators.Validators)
-			address    types.Address
+			// commitSize = block.LastCommit.Size()
+			// valSetLen  = len(cs.LastValidators.Validators)
+			address types.Address
 		)
-		if commitSize != valSetLen {
-			panic(fmt.Sprintf("commit size (%d) doesn't match valset length (%d) at height %d\n\n%v\n\n%v",
-				commitSize, valSetLen, block.Height, block.LastCommit.Signatures, cs.LastValidators.Validators))
-		}
+		// if commitSize != valSetLen {
+		// 	panic(fmt.Sprintf("commit size (%d) doesn't match valset length (%d) at height %d\n\n%v\n\n%v",
+		// 		commitSize, valSetLen, block.Height, block.LastCommit.Signatures, cs.LastValidators.Validators))
+		// }
 
 		if cs.privValidator != nil {
 			if cs.privValidatorPubKey == nil {

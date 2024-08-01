@@ -1,0 +1,268 @@
+{
+  "block_height": "2078151",
+  "validators": [
+    {
+      "address": "196E78136D1DA1C3D31D3A0B5C36069D1CEAC9FE",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Q/PJI3bMMOrZjkJTSjHtLMiWi/x4hIHTnxPfoVBJ5Ik="
+      },
+      "voting_power": "7",
+      "proposer_priority": "-14"
+    },
+    {
+      "address": "2990DC639AFE7CDA1425318AE9DAB1C37742EF52",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "AgQSbxeY7fFvwzAE81b9ZHR09Zc4OZm0XZRoGfxFI9U="
+      },
+      "voting_power": "7",
+      "proposer_priority": "-2"
+    },
+    {
+      "address": "457B3388592BB9E0E04EDFD239D3015FD5BE5208",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "aE1NlwnTCChcjgecjKMNE0Btdur+bKZl7M4CBgV6iZg="
+      },
+      "voting_power": "7",
+      "proposer_priority": "-10"
+    },
+    {
+      "address": "B38E76F951587FA58C9F060A3C645B7A4EEE0E9F",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "/7+8El4lPtrDL/SiooQJHEFB9Vynm9dh0JcOEqRFYJg="
+      },
+      "voting_power": "2",
+      "proposer_priority": "-12"
+    },
+    {
+      "address": "05C334F31D0D91921D0B66E88C74509BD8665CB1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "QNCrCJo+HUSfSGHOPZh/+w/Mi2M8qVGj/v8T10f+94k="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-16"
+    },
+    {
+      "address": "090A82CFF4B20B1D2BF4111AF7761CAB6361A3A5",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "263urtni3ajJ3G5zi60qM/otoT1c+Jz9YCfgjplpy2E="
+      },
+      "voting_power": "1",
+      "proposer_priority": "16"
+    },
+    {
+      "address": "311DCDB2CE52376E31E84EA4CB4E2EF86F741127",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "/fym7ZqeLBTK1ERsBrTkaw8ZIfO4ccf/UhMoGMsX4X0="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-12"
+    },
+    {
+      "address": "3563D82365BCCBFE8E5AEBD541A6B0EA15543FC9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "BfIV7pyWoTFM0KiXIbgFWAqZcu3fZfZHkJ0F1GEIo4E="
+      },
+      "voting_power": "1",
+      "proposer_priority": "15"
+    },
+    {
+      "address": "3E2D3389957C2EA49922D123FE0BC492E48B165B",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "r0NcVxwkK6jGrprUBKET/gPRVqSaWLgKXNQO3JnrLpM="
+      },
+      "voting_power": "1",
+      "proposer_priority": "7"
+    },
+    {
+      "address": "48F74A81276BD20A69E8A15E321505446C4D7A88",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "KY9ViJwYx7z2w+5SDAcDjqdcq/NKOgXyS6BTI7qQGo0="
+      },
+      "voting_power": "1",
+      "proposer_priority": "6"
+    },
+    {
+      "address": "4BE728D8F64A1A7FE3F9E91A604606826136CE88",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "uRWJC2wluhhwdjKApjIQrS7nBuCU6ED5NyBeAAb/nQ0="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-2"
+    },
+    {
+      "address": "4D884CAB4E26AB7E4B64D4115ABFBB063BD967DC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "57wUSN4uv/xy+pS7jLh15mYaz37THsWBw3YqwHQoidY="
+      },
+      "voting_power": "1",
+      "proposer_priority": "4"
+    },
+    {
+      "address": "51C6886788868CFD7B98A4CC3D21F9BE40927D5B",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "xtWAqiU8l4sWgSaNQISg/oRibSc5By0Dp5SeATikn7c="
+      },
+      "voting_power": "1",
+      "proposer_priority": "6"
+    },
+    {
+      "address": "52C8285FCFD8F085E301B8B55ADFFF0054B9CDF3",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "kqnUSsx2ZA0T/C5Uq9ddQbshM5QMK9JeAytPGKOPjC4="
+      },
+      "voting_power": "1",
+      "proposer_priority": "6"
+    },
+    {
+      "address": "54D2A386A91F075B4B2DEDABDA754A149C696EDA",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "16owZ/vmfTSMguSo/Tpnl4pvod/vKgLvbdGpbMOG6Wc="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-17"
+    },
+    {
+      "address": "6E8D612700AC9E040312FA96D5CEF05884A200C0",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "9x5LN7LotdTkQZs8bh9AvU3SFO9IOT3r8VnSmqx3n1k="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-7"
+    },
+    {
+      "address": "7A20161E0989FE5B0E8CBF2F468776AD0AF07C86",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "oJUxtVflq0fNSnKN7XydU74HejmbrVqRCrrJWU3oWDs="
+      },
+      "voting_power": "1",
+      "proposer_priority": "14"
+    },
+    {
+      "address": "7BC5A505C3AB95F3AE4B369D210E51221A2D4177",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "ZzKO604IWgaErkvYWmcQd485h+tVEfrAG+HYaCJ0TLY="
+      },
+      "voting_power": "1",
+      "proposer_priority": "5"
+    },
+    {
+      "address": "7F70369E2F25F807BC04AB830D45E5F28625F6E5",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "DGy0SrumlyFcGTae8YwB+NtIEoTi25E4vQc4ERCsRU0="
+      },
+      "voting_power": "1",
+      "proposer_priority": "31"
+    },
+    {
+      "address": "8B22C21E3113318B975793622ED6F6F412831163",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "EVVGcFvcX8JW9SUYinDWFXZ75QS82xErXX91lNJETz4="
+      },
+      "voting_power": "1",
+      "proposer_priority": "12"
+    },
+    {
+      "address": "8CAE62FCF0A422751178D1FCDAC1C233CACF60A5",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "pJ5mcC6DuFddjp4Vw8I5f/BsCzWFJn8GsTqshLseDa8="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-1"
+    },
+    {
+      "address": "8E3D68B951651A4AFEFA9102406140860CF3A5C9",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "SabH/zpQdKv0s/NvPntHKhjpRI6LdBx5CreOUkCo2es="
+      },
+      "voting_power": "1",
+      "proposer_priority": "2"
+    },
+    {
+      "address": "8F572696CCD75E5092F9D453DBCEB955835996F1",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "t8PRg9ditGshOuk627jQQyeZkE7cKSNFbpeM3QF+lWw="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-3"
+    },
+    {
+      "address": "9DD9DA116FC1F51A811FC7D6F511233B4EB98BA8",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Scwi5tuOgvyPUmN0uNZXImFD+w3bu7QzXVUUy9HyG0A="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-4"
+    },
+    {
+      "address": "A5BCE969A5813E01BAA8E988143498F3B4612815",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "IOzkS1rpnamNhRGxaxuz3e1oe1W6dQmY5Wbw+03Ro1c="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-7"
+    },
+    {
+      "address": "D743AD7DFD515373016508669C0011195D44ED87",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "s8f647zIdAYI+e0sK6Hz2KArd31XvifZXdAnc2UNFf4="
+      },
+      "voting_power": "1",
+      "proposer_priority": "10"
+    },
+    {
+      "address": "E022941D32493E111F39AF6EB3E4E7CF1C12FC00",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Wr9zucIN69BW5jSYTdzD7fA0ebvjLFcIuw6Oxkv7HGQ="
+      },
+      "voting_power": "1",
+      "proposer_priority": "30"
+    },
+    {
+      "address": "FB47E4ACE94FCECA4BB8F664F8B87079765925F3",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "lkesOMyCFZrjjeryGdcX3h5mYACNRr9i8luW1SVnF3U="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-15"
+    },
+    {
+      "address": "FB9E99EBA6FBFA66A0D18294FCC73C17A568CFCC",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "pt6JD/yWNaKDYwzgshCYS5JXQf+JH3kSuyQHKm/F2JA="
+      },
+      "voting_power": "1",
+      "proposer_priority": "-15"
+    }
+  ],
+  "count": "29",
+  "total": "29"
+}
